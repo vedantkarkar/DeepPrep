@@ -1,0 +1,27 @@
+AARAV DESHMUKH
+Pune, Maharashtra | +91 98765 43210 | aarav.deshmukh@example.com | github.com/aarav-deshmukh | linkedin.com/in/aarav-deshmukh
+
+EDUCATION
+COEP Technological University, Pune (2021 – 2025)
+Bachelor of Technology in Computer Science & Engineering
+CGPA: 8.4 / 10.0
+
+TECHNICAL SKILLS
+Languages: C++, Java, Python, SQL
+Backend & Frameworks: Spring Boot, FastAPI (Basics)
+Databases: PostgreSQL, MySQL
+Tools & DevOps: Git, GitHub Actions, Docker (Basics)
+Core CS: Data Structures & Algorithms, Object-Oriented Programming, DBMS, Operating Systems, Computer Networks, System Design (Basics)
+
+PROJECTS
+1. High-Performance LRU Cache Engine (C++, Multithreading)
+- Implemented multi-threaded LRU Cache with custom hash table and mutex synchronization.
+- Benchmark verified 10,000 req/sec under concurrent read/write workloads.
+
+2. Campus Placement Management System (Java, Spring Boot, PostgreSQL)
+- Developed portal tracking recruitment drives for 600+ students with 14 normalized tables.
+- Implemented transactional JPA repositories and optimized indexing.
+
+CODING ACHIEVEMENTS
+- LeetCode: Solved 180+ problems (Rating: 1620).
+- College Coding Competition: 2nd Place out of 120 participants.

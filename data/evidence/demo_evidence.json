@@ -1,0 +1,124 @@
+[
+  {
+    "skill_slug": "dsa",
+    "evidence_type": "assessment",
+    "title": "LeetCode Problem Solving Profile",
+    "description": "Solved 180+ problems (70 Easy, 95 Medium, 15 Hard) focusing on Binary Trees, Graphs, Dynamic Programming.",
+    "url": "https://leetcode.com/u/aarav_deshmukh",
+    "raw_metadata": {
+      "platform": "LeetCode",
+      "total_solved": 180,
+      "contest_rating": 1620
+    },
+    "verification_status": "verified",
+    "confidence_score": 0.85,
+    "date_obtained": "2026-06-15"
+  },
+  {
+    "skill_slug": "cpp",
+    "evidence_type": "academic_coursework",
+    "title": "Data Structures & Systems Programming in C++ (CS201)",
+    "description": "Completed semester course in C++ with Grade A. Implemented custom memory allocators and graph algorithms.",
+    "url": null,
+    "raw_metadata": {
+      "institution": "COEP Pune",
+      "course_code": "CS201",
+      "grade": "A"
+    },
+    "verification_status": "self_attested",
+    "confidence_score": 0.75,
+    "date_obtained": "2024-11-20"
+  },
+  {
+    "skill_slug": "cpp",
+    "evidence_type": "project",
+    "title": "High-Performance Cache Engine in C++",
+    "description": "Built multi-threaded LRU Cache with custom hash table and mutex synchronization.",
+    "url": "https://github.com/aarav-deshmukh/cpp-lru-cache",
+    "raw_metadata": {
+      "repo": "cpp-lru-cache",
+      "commits": 28
+    },
+    "verification_status": "verified",
+    "confidence_score": 0.80,
+    "date_obtained": "2025-04-10"
+  },
+  {
+    "skill_slug": "java",
+    "evidence_type": "academic_coursework",
+    "title": "Advanced Java & OOP (CS301)",
+    "description": "Covered Collections, Multithreading, JVM architecture, and Design Patterns with Grade A.",
+    "url": null,
+    "raw_metadata": {
+      "institution": "COEP Pune",
+      "course_code": "CS301",
+      "grade": "A"
+    },
+    "verification_status": "self_attested",
+    "confidence_score": 0.70,
+    "date_obtained": "2025-11-20"
+  },
+  {
+    "skill_slug": "java",
+    "evidence_type": "project",
+    "title": "Campus Placement Management System Backend",
+    "description": "Java backend service managing student registrations, interview scheduling, and eligibility verification.",
+    "url": "https://github.com/aarav-deshmukh/campus-placement-backend",
+    "raw_metadata": {
+      "repo": "campus-placement-backend",
+      "commits": 36
+    },
+    "verification_status": "verified",
+    "confidence_score": 0.75,
+    "date_obtained": "2026-03-10"
+  },
+  {
+    "skill_slug": "spring-boot",
+    "evidence_type": "course",
+    "title": "Spring Boot 3 & Microservices Certificate",
+    "description": "Completed 30-hour online course covering Spring Data JPA, Spring Security, and REST APIs.",
+    "url": "https://coursera.org/verify/demo-spring-cert",
+    "raw_metadata": {
+      "provider": "Coursera",
+      "hours": 30
+    },
+    "verification_status": "verified",
+    "confidence_score": 0.70,
+    "date_obtained": "2026-01-15"
+  },
+  {
+    "skill_slug": "postgresql",
+    "evidence_type": "project",
+    "title": "PostgreSQL Schema Design for Placement Portal",
+    "description": "Created 14 normalized tables, B-tree indexes, foreign keys, and complex aggregate views.",
+    "url": "https://github.com/aarav-deshmukh/campus-placement-backend",
+    "raw_metadata": {
+      "db": "PostgreSQL 16"
+    },
+    "verification_status": "verified",
+    "confidence_score": 0.75,
+    "date_obtained": "2026-03-10"
+  },
+  {
+    "skill_slug": "git",
+    "evidence_type": "project",
+    "title": "GitHub Active Collaboration",
+    "description": "Maintained multiple open source repositories with consistent commit history and GitHub Actions.",
+    "url": "https://github.com/aarav-deshmukh",
+    "raw_metadata": {},
+    "verification_status": "verified",
+    "confidence_score": 0.75,
+    "date_obtained": "2026-05-01"
+  },
+  {
+    "skill_slug": "system-design",
+    "evidence_type": "self_report",
+    "title": "System Design Reading & Primer",
+    "description": "Read System Design Primer and watched YouTube tutorials on scaling web applications.",
+    "url": null,
+    "raw_metadata": {},
+    "verification_status": "self_attested",
+    "confidence_score": 0.30,
+    "date_obtained": "2026-05-15"
+  }
+]

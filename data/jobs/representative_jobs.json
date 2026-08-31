@@ -1,0 +1,396 @@
+[
+  {
+    "title": "Software Development Engineer - I (SDE 1)",
+    "target_role": "Software Engineer",
+    "company_name": "Persistent Systems",
+    "location": "Pune, Maharashtra",
+    "raw_description": "We are seeking a Software Development Engineer I to join our engineering team in Pune. As an SDE 1, you will design, develop, and maintain high-performance software modules. You will participate in code reviews, write unit tests, and collaborate with cross-functional teams.\n\nQualifications:\n- B.Tech/B.E. in Computer Science, IT, or related discipline (2024/2025/2026 graduates).\n- Strong foundation in Data Structures, Algorithms, and Object-Oriented Programming.\n- Proficient in Java or C++.\n- Solid understanding of Relational Databases (SQL, PostgreSQL/MySQL).\n- Good understanding of Operating Systems and Computer Networks.\n- Familiarity with Git and Agile methodologies.\n- Strong analytical and problem-solving abilities.",
+    "source_url": "https://www.persistent.com/careers/sde-1",
+    "source_type": "direct_company",
+    "eligibility": [
+      {
+        "criterion_type": "degree",
+        "operator": "IN",
+        "expected_value": ["B.Tech", "B.E.", "MCA"],
+        "is_mandatory": true,
+        "provenance": "extracted_from_jd"
+      },
+      {
+        "criterion_type": "branch",
+        "operator": "IN",
+        "expected_value": ["Computer Science", "Information Technology", "AI & Data Science", "Electronics & Telecommunication"],
+        "is_mandatory": true,
+        "provenance": "extracted_from_jd"
+      },
+      {
+        "criterion_type": "min_graduation_year",
+        "operator": "GREATER_EQUAL",
+        "expected_value": 2024,
+        "is_mandatory": true,
+        "provenance": "extracted_from_jd"
+      }
+    ],
+    "competencies": [
+      {
+        "skill_slug": "dsa",
+        "is_required": true,
+        "importance_weight": 1.0,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high",
+        "interview_relevance_notes": "Core coding round barrier. Must solve medium problem within 30 minutes.",
+        "evidence_expectation": "Demonstrated solving 150+ problems or active LeetCode/HackerRank profile."
+      },
+      {
+        "skill_slug": "java",
+        "is_required": true,
+        "importance_weight": 0.9,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high",
+        "interview_relevance_notes": "Primary language for technical interview and live coding.",
+        "evidence_expectation": "Projects or coursework demonstrating OOP, collections, and exception handling."
+      },
+      {
+        "skill_slug": "oop",
+        "is_required": true,
+        "importance_weight": 0.8,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high",
+        "interview_relevance_notes": "Evaluated during technical rounds through class design questions."
+      },
+      {
+        "skill_slug": "sql",
+        "is_required": true,
+        "importance_weight": 0.8,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "medium",
+        "interview_relevance_notes": "Writing joins, aggregations, and query optimization."
+      },
+      {
+        "skill_slug": "dbms",
+        "is_required": true,
+        "importance_weight": 0.7,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 2,
+        "interview_relevance_level": "medium"
+      },
+      {
+        "skill_slug": "operating-systems",
+        "is_required": true,
+        "importance_weight": 0.6,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 2,
+        "interview_relevance_level": "medium"
+      },
+      {
+        "skill_slug": "git",
+        "is_required": false,
+        "importance_weight": 0.5,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 2,
+        "interview_relevance_level": "low"
+      }
+    ]
+  },
+  {
+    "title": "Junior Backend Engineer",
+    "target_role": "Backend Engineer",
+    "company_name": "Razorpay",
+    "location": "Mumbai, Maharashtra (Hybrid)",
+    "raw_description": "Razorpay is seeking an enthusiastic Junior Backend Engineer to help scale our payment APIs. You will work with distributed systems, relational databases, and RESTful architectures handling millions of transactions daily.\n\nRequirements:\n- Degree in Computer Science, Engineering, or related technical field.\n- Hands-on experience building backend microservices in Python or Java.\n- Strong expertise with PostgreSQL/MySQL, indexing, and transactional integrity.\n- Familiarity with Redis caching and REST API design principles.\n- Knowledge of Unit Testing and CI/CD tools.\n- Good understanding of Docker and containerization.",
+    "source_url": "https://razorpay.com/jobs/junior-backend-engineer",
+    "source_type": "direct_company",
+    "eligibility": [
+      {
+        "criterion_type": "degree",
+        "operator": "IN",
+        "expected_value": ["B.Tech", "B.E.", "M.Tech", "MCA", "B.Sc Computer Science"],
+        "is_mandatory": true,
+        "provenance": "extracted_from_jd"
+      },
+      {
+        "criterion_type": "min_graduation_year",
+        "operator": "GREATER_EQUAL",
+        "expected_value": 2023,
+        "is_mandatory": true,
+        "provenance": "extracted_from_jd"
+      }
+    ],
+    "competencies": [
+      {
+        "skill_slug": "python",
+        "is_required": true,
+        "importance_weight": 0.9,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high",
+        "interview_relevance_notes": "Live coding round testing clean code and async programming."
+      },
+      {
+        "skill_slug": "fastapi",
+        "is_required": true,
+        "importance_weight": 0.85,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high",
+        "interview_relevance_notes": "API design, dependency injection, and Pydantic validation."
+      },
+      {
+        "skill_slug": "postgresql",
+        "is_required": true,
+        "importance_weight": 0.9,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high",
+        "interview_relevance_notes": "Schema modeling, transactions, query optimization, and connection pooling."
+      },
+      {
+        "skill_slug": "rest-apis",
+        "is_required": true,
+        "importance_weight": 0.8,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "medium"
+      },
+      {
+        "skill_slug": "redis",
+        "is_required": false,
+        "importance_weight": 0.6,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 2,
+        "interview_relevance_level": "medium"
+      },
+      {
+        "skill_slug": "docker",
+        "is_required": false,
+        "importance_weight": 0.5,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 2,
+        "interview_relevance_level": "low"
+      },
+      {
+        "skill_slug": "testing",
+        "is_required": true,
+        "importance_weight": 0.7,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 2,
+        "interview_relevance_level": "medium"
+      }
+    ]
+  },
+  {
+    "title": "Graduate Full Stack Developer",
+    "target_role": "Full Stack Engineer",
+    "company_name": "Bajaj Finserv Health",
+    "location": "Pune, Maharashtra",
+    "raw_description": "We are looking for a Graduate Full Stack Developer to build modern customer-facing healthcare portals. You will build user interfaces in Next.js/React and integrate with high-availability Node.js/Python backend services.\n\nKey Requirements:\n- Bachelor's in CS/IT or equivalent (2024-2026 batch).\n- Proficiency in JavaScript, TypeScript, and modern React/Next.js.\n- Backend API development with Node.js/Express or Python.\n- Relational and NoSQL database experience (PostgreSQL, MongoDB).\n- Knowledge of modern responsive CSS and UI state management.\n- Understanding of Git version control and code deployment.",
+    "source_url": "https://www.bajajfinservhealth.in/careers/full-stack",
+    "source_type": "direct_company",
+    "eligibility": [
+      {
+        "criterion_type": "degree",
+        "operator": "IN",
+        "expected_value": ["B.Tech", "B.E.", "BCA", "MCA"],
+        "is_mandatory": true,
+        "provenance": "extracted_from_jd"
+      },
+      {
+        "criterion_type": "min_graduation_year",
+        "operator": "GREATER_EQUAL",
+        "expected_value": 2024,
+        "is_mandatory": true,
+        "provenance": "extracted_from_jd"
+      }
+    ],
+    "competencies": [
+      {
+        "skill_slug": "react",
+        "is_required": true,
+        "importance_weight": 0.9,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high",
+        "interview_relevance_notes": "React hooks, component lifecycle, rendering performance."
+      },
+      {
+        "skill_slug": "typescript",
+        "is_required": true,
+        "importance_weight": 0.85,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high"
+      },
+      {
+        "skill_slug": "nodejs",
+        "is_required": true,
+        "importance_weight": 0.85,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high"
+      },
+      {
+        "skill_slug": "postgresql",
+        "is_required": true,
+        "importance_weight": 0.75,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 2,
+        "interview_relevance_level": "medium"
+      },
+      {
+        "skill_slug": "html-css",
+        "is_required": true,
+        "importance_weight": 0.7,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "medium"
+      },
+      {
+        "skill_slug": "rest-apis",
+        "is_required": true,
+        "importance_weight": 0.8,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "medium"
+      }
+    ]
+  },
+  {
+    "title": "Associate AI/ML Engineer",
+    "target_role": "AI/ML Engineer",
+    "company_name": "Fractal Analytics",
+    "location": "Mumbai, Maharashtra",
+    "raw_description": "Fractal is looking for an Associate AI/ML Engineer. You will help build and productionize predictive and generative AI models across our Fortune 500 client base.\n\nQualifications:\n- B.Tech/B.E./M.Sc in CS, Data Science, AI, or Math/Statistics.\n- Strong programming skills in Python.\n- Deep understanding of Machine Learning and Deep Learning algorithms.\n- Experience with PyTorch or TensorFlow.\n- Experience with NLP, LLMs, and prompt engineering is a plus.\n- Strong analytical problem-solving and mathematical aptitude.",
+    "source_url": "https://fractal.ai/careers/associate-ml-engineer",
+    "source_type": "direct_company",
+    "eligibility": [
+      {
+        "criterion_type": "degree",
+        "operator": "IN",
+        "expected_value": ["B.Tech", "B.E.", "M.Tech", "M.Sc"],
+        "is_mandatory": true,
+        "provenance": "extracted_from_jd"
+      },
+      {
+        "criterion_type": "min_graduation_year",
+        "operator": "GREATER_EQUAL",
+        "expected_value": 2024,
+        "is_mandatory": true,
+        "provenance": "extracted_from_jd"
+      }
+    ],
+    "competencies": [
+      {
+        "skill_slug": "python",
+        "is_required": true,
+        "importance_weight": 1.0,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 4,
+        "interview_relevance_level": "high"
+      },
+      {
+        "skill_slug": "machine-learning",
+        "is_required": true,
+        "importance_weight": 1.0,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high",
+        "interview_relevance_notes": "Bias-variance tradeoff, cross-validation, regularization, evaluation metrics."
+      },
+      {
+        "skill_slug": "pytorch",
+        "is_required": true,
+        "importance_weight": 0.85,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high"
+      },
+      {
+        "skill_slug": "pandas-numpy",
+        "is_required": true,
+        "importance_weight": 0.8,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "medium"
+      },
+      {
+        "skill_slug": "nlp",
+        "is_required": false,
+        "importance_weight": 0.7,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 2,
+        "interview_relevance_level": "medium"
+      }
+    ]
+  },
+  {
+    "title": "Junior Data Engineer",
+    "target_role": "Data Engineer",
+    "company_name": "LTIMindtree",
+    "location": "Pune, Maharashtra",
+    "raw_description": "We are seeking a Junior Data Engineer in Pune to build and support enterprise data pipelines, data warehouses, and ETL flows.\n\nQualifications:\n- B.E./B.Tech in Computer Engineering / Information Technology.\n- Solid knowledge of SQL and query performance tuning.\n- Python programming skills for data ingestion and automation.\n- Fundamental understanding of Apache Spark and Big Data architectures.\n- Familiarity with cloud data platforms (AWS or Snowflake).",
+    "source_url": "https://www.ltimindtree.com/careers/junior-data-engineer",
+    "source_type": "direct_company",
+    "eligibility": [
+      {
+        "criterion_type": "degree",
+        "operator": "IN",
+        "expected_value": ["B.Tech", "B.E.", "MCA"],
+        "is_mandatory": true,
+        "provenance": "extracted_from_jd"
+      },
+      {
+        "criterion_type": "min_graduation_year",
+        "operator": "GREATER_EQUAL",
+        "expected_value": 2024,
+        "is_mandatory": true,
+        "provenance": "extracted_from_jd"
+      }
+    ],
+    "competencies": [
+      {
+        "skill_slug": "sql",
+        "is_required": true,
+        "importance_weight": 1.0,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 4,
+        "interview_relevance_level": "high",
+        "interview_relevance_notes": "Window functions, partitioning, complex aggregation queries."
+      },
+      {
+        "skill_slug": "python",
+        "is_required": true,
+        "importance_weight": 0.9,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high"
+      },
+      {
+        "skill_slug": "data-pipelines-etl",
+        "is_required": true,
+        "importance_weight": 0.85,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 3,
+        "interview_relevance_level": "high"
+      },
+      {
+        "skill_slug": "apache-spark",
+        "is_required": true,
+        "importance_weight": 0.8,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 2,
+        "interview_relevance_level": "medium"
+      },
+      {
+        "skill_slug": "data-warehousing",
+        "is_required": false,
+        "importance_weight": 0.65,
+        "importance_provenance": "curated",
+        "required_proficiency_level": 2,
+        "interview_relevance_level": "low"
+      }
+    ]
+  }
+]

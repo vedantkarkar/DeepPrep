@@ -1,0 +1,282 @@
+[
+  {
+    "canonical_name": "Python",
+    "slug": "python",
+    "category": "programming",
+    "description": "High-level programming language widely used in AI, data engineering, and backend development.",
+    "aliases": ["Python 3", "Python3", "py"]
+  },
+  {
+    "canonical_name": "Java",
+    "slug": "java",
+    "category": "programming",
+    "description": "Object-oriented, class-based language widely used in enterprise software.",
+    "aliases": ["Java 8", "Java 11", "Java 17", "Java 21", "Core Java"]
+  },
+  {
+    "canonical_name": "C++",
+    "slug": "cpp",
+    "category": "programming",
+    "description": "High-performance systems programming language.",
+    "aliases": ["CPP", "C Plus Plus", "C/C++"]
+  },
+  {
+    "canonical_name": "JavaScript",
+    "slug": "javascript",
+    "category": "programming",
+    "description": "Dynamic web programming language for client and server side.",
+    "aliases": ["JS", "ES6", "ECMAScript"]
+  },
+  {
+    "canonical_name": "TypeScript",
+    "slug": "typescript",
+    "category": "programming",
+    "description": "Typed superset of JavaScript that compiles to plain JavaScript.",
+    "aliases": ["TS"]
+  },
+  {
+    "canonical_name": "SQL",
+    "slug": "sql",
+    "category": "database",
+    "description": "Standard language for storing, manipulating and retrieving data in relational databases.",
+    "aliases": ["Structured Query Language", "ANSI SQL"]
+  },
+  {
+    "canonical_name": "PostgreSQL",
+    "slug": "postgresql",
+    "category": "database",
+    "description": "Powerful, open source object-relational database system.",
+    "aliases": ["Postgres", "PostgreSQL DB", "PostgresSQL", "PGSQL"]
+  },
+  {
+    "canonical_name": "MySQL",
+    "slug": "mysql",
+    "category": "database",
+    "description": "Open-source relational database management system.",
+    "aliases": ["MySQL Server"]
+  },
+  {
+    "canonical_name": "MongoDB",
+    "slug": "mongodb",
+    "category": "database",
+    "description": "Document-oriented NoSQL database program.",
+    "aliases": ["Mongo", "MongoDB NoSQL"]
+  },
+  {
+    "canonical_name": "Redis",
+    "slug": "redis",
+    "category": "database",
+    "description": "In-memory data structure store used as a database, cache, and message broker.",
+    "aliases": ["Redis Cache", "Redis DB"]
+  },
+  {
+    "canonical_name": "FastAPI",
+    "slug": "fastapi",
+    "category": "backend",
+    "description": "Modern, fast (high-performance), web framework for building APIs with Python.",
+    "aliases": ["Fast API"]
+  },
+  {
+    "canonical_name": "Spring Boot",
+    "slug": "spring-boot",
+    "category": "backend",
+    "description": "Framework for building stand-alone, production-grade Spring-based Applications.",
+    "aliases": ["SpringBoot", "Spring-Boot", "Spring Framework"]
+  },
+  {
+    "canonical_name": "Node.js",
+    "slug": "nodejs",
+    "category": "backend",
+    "description": "JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    "aliases": ["Node", "NodeJS", "Node js"]
+  },
+  {
+    "canonical_name": "Express.js",
+    "slug": "expressjs",
+    "category": "backend",
+    "description": "Fast, unopinionated, minimalist web framework for Node.js.",
+    "aliases": ["Express", "ExpressJS"]
+  },
+  {
+    "canonical_name": "Django",
+    "slug": "django",
+    "category": "backend",
+    "description": "High-level Python web framework that encourages rapid development.",
+    "aliases": ["Django REST Framework", "DRF"]
+  },
+  {
+    "canonical_name": "React",
+    "slug": "react",
+    "category": "frontend",
+    "description": "A JavaScript library for building user interfaces.",
+    "aliases": ["React.js", "ReactJS", "React JS"]
+  },
+  {
+    "canonical_name": "Next.js",
+    "slug": "nextjs",
+    "category": "frontend",
+    "description": "The React Framework for the Web with server-side rendering and static site generation.",
+    "aliases": ["NextJS", "Next", "Next js"]
+  },
+  {
+    "canonical_name": "HTML/CSS",
+    "slug": "html-css",
+    "category": "frontend",
+    "description": "Core foundational web technologies for structure and styling.",
+    "aliases": ["HTML", "CSS", "HTML5", "CSS3"]
+  },
+  {
+    "canonical_name": "Data Structures & Algorithms",
+    "slug": "dsa",
+    "category": "cs_fundamentals",
+    "description": "Fundamental computer science concepts for solving algorithmic problems efficiently.",
+    "aliases": ["DSA", "Data Structures", "Algorithms", "Algorithmic Problem Solving"]
+  },
+  {
+    "canonical_name": "Object-Oriented Programming",
+    "slug": "oop",
+    "category": "cs_fundamentals",
+    "description": "Programming paradigm based on the concept of objects and classes.",
+    "aliases": ["OOP", "OOPS", "Object Oriented Design"]
+  },
+  {
+    "canonical_name": "Database Management Systems",
+    "slug": "dbms",
+    "category": "cs_fundamentals",
+    "description": "Core concepts of relational schemas, transactions, ACID properties, and indexing.",
+    "aliases": ["DBMS", "Database Systems", "ACID", "Transactions"]
+  },
+  {
+    "canonical_name": "Operating Systems",
+    "slug": "operating-systems",
+    "category": "cs_fundamentals",
+    "description": "Concepts of process management, memory management, file systems, and concurrency.",
+    "aliases": ["OS", "Operating System Concepts", "Concurrency", "Multithreading"]
+  },
+  {
+    "canonical_name": "Computer Networks",
+    "slug": "computer-networks",
+    "category": "cs_fundamentals",
+    "description": "TCP/IP, OSI model, HTTP/HTTPS, DNS, and socket programming concepts.",
+    "aliases": ["CN", "Networking", "TCP/IP", "HTTP"]
+  },
+  {
+    "canonical_name": "RESTful APIs",
+    "slug": "rest-apis",
+    "category": "backend",
+    "description": "Architectural style for designing networked applications and web services.",
+    "aliases": ["REST API", "REST", "RESTful Web Services", "API Design"]
+  },
+  {
+    "canonical_name": "System Design",
+    "slug": "system-design",
+    "category": "system_design",
+    "description": "Architecture, scaling, caching, load balancing, and distributed systems design.",
+    "aliases": ["High-Level Design", "HLD", "Low-Level Design", "LLD", "Distributed Systems"]
+  },
+  {
+    "canonical_name": "Git & GitHub",
+    "slug": "git",
+    "category": "devops",
+    "description": "Distributed version control system and collaboration platform.",
+    "aliases": ["Git", "GitHub", "Version Control", "Git CLI"]
+  },
+  {
+    "canonical_name": "Docker",
+    "slug": "docker",
+    "category": "devops",
+    "description": "Platform for containerizing applications and microservices.",
+    "aliases": ["Containers", "Containerization", "Docker Compose"]
+  },
+  {
+    "canonical_name": "CI/CD",
+    "slug": "cicd",
+    "category": "devops",
+    "description": "Continuous Integration and Continuous Deployment automation pipelines.",
+    "aliases": ["CI/CD Pipelines", "GitHub Actions", "Jenkins"]
+  },
+  {
+    "canonical_name": "AWS",
+    "slug": "aws",
+    "category": "cloud",
+    "description": "Amazon Web Services cloud computing platform.",
+    "aliases": ["Amazon Web Services", "AWS Cloud", "EC2", "S3"]
+  },
+  {
+    "canonical_name": "Machine Learning",
+    "slug": "machine-learning",
+    "category": "ai_ml",
+    "description": "Study of algorithms that improve automatically through experience and data.",
+    "aliases": ["ML", "Supervised Learning", "Unsupervised Learning", "Scikit-Learn"]
+  },
+  {
+    "canonical_name": "Deep Learning",
+    "slug": "deep-learning",
+    "category": "ai_ml",
+    "description": "Subfield of machine learning based on artificial neural networks.",
+    "aliases": ["DL", "Neural Networks", "CNN", "RNN", "Transformers"]
+  },
+  {
+    "canonical_name": "PyTorch",
+    "slug": "pytorch",
+    "category": "ai_ml",
+    "description": "Open source machine learning framework based on the Torch library.",
+    "aliases": ["Torch"]
+  },
+  {
+    "canonical_name": "TensorFlow",
+    "slug": "tensorflow",
+    "category": "ai_ml",
+    "description": "End-to-end open source platform for machine learning.",
+    "aliases": ["TF", "Keras"]
+  },
+  {
+    "canonical_name": "Natural Language Processing",
+    "slug": "nlp",
+    "category": "ai_ml",
+    "description": "Techniques allowing computers to understand, interpret, and manipulate human language.",
+    "aliases": ["NLP", "Text Processing", "LLMs", "Large Language Models"]
+  },
+  {
+    "canonical_name": "Pandas & NumPy",
+    "slug": "pandas-numpy",
+    "category": "data",
+    "description": "Fundamental data manipulation and mathematical analysis libraries in Python.",
+    "aliases": ["Pandas", "NumPy", "Data Manipulation", "Data Wrangling"]
+  },
+  {
+    "canonical_name": "Apache Spark",
+    "slug": "apache-spark",
+    "category": "data",
+    "description": "Multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.",
+    "aliases": ["Spark", "PySpark"]
+  },
+  {
+    "canonical_name": "Data Pipelines & ETL",
+    "slug": "data-pipelines-etl",
+    "category": "data",
+    "description": "Extraction, transformation, and loading of raw data into analytical repositories.",
+    "aliases": ["ETL", "Data Pipelines", "Airflow", "Data Extraction"]
+  },
+  {
+    "canonical_name": "Data Warehousing",
+    "slug": "data-warehousing",
+    "category": "data",
+    "description": "Central repositories of integrated data from one or more disparate sources.",
+    "aliases": ["Snowflake", "BigQuery", "Redshift", "Data Warehouse"]
+  },
+  {
+    "canonical_name": "Unit & Integration Testing",
+    "slug": "testing",
+    "category": "testing",
+    "description": "Writing automated test suites to verify software correctness.",
+    "aliases": ["Testing", "Unit Testing", "Integration Testing", "JUnit", "PyTest", "Jest"]
+  },
+  {
+    "canonical_name": "Technical Communication",
+    "slug": "technical-communication",
+    "category": "soft_skill",
+    "description": "Explaining technical concepts, system tradeoffs, and design decisions clearly.",
+    "aliases": ["Communication Skills", "Communication", "Technical Writing"]
+  }
+]

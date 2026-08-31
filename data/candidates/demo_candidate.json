@@ -1,0 +1,91 @@
+{
+  "full_name": "Aarav Deshmukh",
+  "email": "aarav.deshmukh@example.com",
+  "phone": "+91 98765 43210",
+  "location_city": "Pune",
+  "location_state": "Maharashtra",
+  "degree": "B.Tech",
+  "branch": "Computer Science and Engineering",
+  "institution": "COEP Technological University, Pune",
+  "graduation_year": 2025,
+  "student_status": "final_year",
+  "education_confirmed_by_user": true,
+  "raw_education_claims": {
+    "extracted_degree": "B.Tech",
+    "extracted_branch": "Computer Science and Engineering",
+    "extracted_institution": "COEP Technological University, Pune",
+    "extracted_year": 2025
+  },
+  "skills": [
+    {
+      "skill_slug": "dsa",
+      "claim_source": "resume",
+      "raw_claim_text": "Data Structures & Algorithms (LeetCode 180+ problems)",
+      "confirmed_by_user": true,
+      "self_assessment_level": 4
+    },
+    {
+      "skill_slug": "cpp",
+      "claim_source": "resume",
+      "raw_claim_text": "C++ STL, Systems Programming, OOP in C++",
+      "confirmed_by_user": true,
+      "self_assessment_level": 4
+    },
+    {
+      "skill_slug": "java",
+      "claim_source": "resume",
+      "raw_claim_text": "Core Java, Multithreading, OOP concepts",
+      "confirmed_by_user": true,
+      "self_assessment_level": 4
+    },
+    {
+      "skill_slug": "sql",
+      "claim_source": "resume",
+      "raw_claim_text": "Relational Database Queries & Normalization",
+      "confirmed_by_user": true,
+      "self_assessment_level": 3
+    },
+    {
+      "skill_slug": "postgresql",
+      "claim_source": "resume",
+      "raw_claim_text": "PostgreSQL database indexing and queries",
+      "confirmed_by_user": true,
+      "self_assessment_level": 3
+    },
+    {
+      "skill_slug": "spring-boot",
+      "claim_source": "resume",
+      "raw_claim_text": "Spring Boot RESTful microservices",
+      "confirmed_by_user": true,
+      "self_assessment_level": 3
+    },
+    {
+      "skill_slug": "fastapi",
+      "claim_source": "manual_entry",
+      "raw_claim_text": "FastAPI async endpoints",
+      "confirmed_by_user": true,
+      "self_assessment_level": 3
+    },
+    {
+      "skill_slug": "git",
+      "claim_source": "resume",
+      "raw_claim_text": "Git, GitHub version control",
+      "confirmed_by_user": true,
+      "self_assessment_level": 4
+    },
+    {
+      "skill_slug": "system-design",
+      "claim_source": "resume",
+      "raw_claim_text": "Basic System Design and Microservices overview",
+      "confirmed_by_user": true,
+      "self_assessment_level": 2
+    },
+    {
+      "skill_slug": "testing",
+      "claim_source": "resume",
+      "raw_claim_text": "Unit testing awareness",
+      "confirmed_by_user": true,
+      "self_assessment_level": 2
+    }
+  ]
+}
