@@ -79,44 +79,90 @@ Phase 6 Deterministic Preparation Optimizer (Personalized Weekly Roadmap)
 
 ## Quick Start Guide
 
-### Option 1: Docker Compose Setup
+### Option 1: Docker Compose Setup (Full Stack)
+
+Runs PostgreSQL (port 5433), FastAPI Backend (port 8000), and Next.js Frontend (port 3000) inside Docker containers.
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/your-username/DeepPrep.git
+git clone https://github.com/vedantkarkar/DeepPrep.git
 cd DeepPrep
 
-# 2. Launch PostgreSQL, Backend, and Frontend
+# 2. Launch all services (PostgreSQL, Backend, Frontend)
 docker compose up --build
-
-# 3. Open Application
-# Frontend: http://localhost:3000
-# Backend API Docs: http://localhost:8000/docs
 ```
+
+> [!TIP]
+> **Linux Permission Note**: If you encounter `permission denied while trying to connect to the docker API`, either run with `sudo docker compose up --build` or add your user to the docker group:
+> ```bash
+> sudo usermod -aG docker $USER && newgrp docker
+> ```
+
+**Access URLs:**
+- **Frontend**: [http://localhost:3000](http://localhost:3000)
+- **Backend API Docs (Swagger)**: [http://localhost:8000/docs](http://localhost:8000/docs)
+- **Health Check**: [http://localhost:8000/health](http://localhost:8000/health)
+
+---
 
 ### Option 2: Local Development Setup
 
-#### 1. Backend Setup
+#### 1. Database Setup
+Start PostgreSQL on port `5433` (either via Docker or native service):
+
 ```bash
-# Activate Python environment
+# Start only the PostgreSQL service using Docker Compose:
+docker compose up -d postgres
+```
+
+#### 2. Backend Setup
+```bash
+# Create and activate Python virtual environment
 python3 -m venv backend/.venv
 source backend/.venv/bin/activate
+
+# Install dependencies
 pip install -r backend/requirements.txt
 
-# Run migrations and seed representative dataset
+# (Optional) Copy environment configuration
+cp .env.example .env
+
+# Run database migrations and seed canonical skills, jobs & demo candidate
 alembic upgrade head
 PYTHONPATH=backend python backend/app/seed.py
 
-# Start FastAPI server
-PYTHONPATH=backend uvicorn app.main:app --host 0.0.0.0 --port 8000
+# Start FastAPI server with live-reloading
+PYTHONPATH=backend uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-#### 2. Frontend Setup
+#### 3. Frontend Setup
 ```bash
 cd frontend
 npm install
 npm run dev -- -p 3000
 ```
+
+---
+
+### Troubleshooting & Common Fixes
+
+- **`[Errno 98] address already in use (port 8000)`**:
+  An earlier backend process is already running. Check or terminate it with:
+  ```bash
+  kill -9 $(lsof -t -i:8000)
+  ```
+- **Database Re-seeding**:
+  The seeding script (`backend/app/seed.py`) is idempotent and can be safely re-run at any time:
+  ```bash
+  PYTHONPATH=backend python backend/app/seed.py
+  ```
+- **Reset Database Schema**:
+  To completely reset and re-apply all migrations:
+  ```bash
+  alembic downgrade base
+  alembic upgrade head
+  PYTHONPATH=backend python backend/app/seed.py
+  ```
 
 ---
 

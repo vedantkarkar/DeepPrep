@@ -71,8 +71,8 @@ async def _run_seed_logic(session: AsyncSession):
     for j_data in jobs_data:
         stmt = select(Job).where(Job.title == j_data["title"], Job.company_name == j_data["company_name"])
         res = await session.execute(stmt)
-        job = res.scalar_one_or_none()
-        if not job:
+        existing_jobs = res.scalars().all()
+        if not existing_jobs:
             job = Job(
                 title=j_data["title"],
                 target_role=j_data["target_role"],
@@ -85,6 +85,9 @@ async def _run_seed_logic(session: AsyncSession):
             session.add(job)
             await session.flush()
         else:
+            job = existing_jobs[0]
+            for extra in existing_jobs[1:]:
+                await session.delete(extra)
             job.target_role = j_data["target_role"]
             job.location = j_data.get("location")
             job.raw_description = j_data["raw_description"]
@@ -129,8 +132,8 @@ async def _run_seed_logic(session: AsyncSession):
 
     stmt = select(Candidate).where(Candidate.full_name == c_data["full_name"])
     res = await session.execute(stmt)
-    candidate = res.scalar_one_or_none()
-    if not candidate:
+    existing_candidates = res.scalars().all()
+    if not existing_candidates:
         candidate = Candidate(
             full_name=c_data["full_name"],
             email=c_data.get("email"),
@@ -148,6 +151,9 @@ async def _run_seed_logic(session: AsyncSession):
         session.add(candidate)
         await session.flush()
     else:
+        candidate = existing_candidates[0]
+        for extra in existing_candidates[1:]:
+            await session.delete(extra)
         candidate.email = c_data.get("email")
         candidate.phone = c_data.get("phone")
         candidate.location_city = c_data.get("location_city", "Pune")

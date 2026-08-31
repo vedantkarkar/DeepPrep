@@ -15,12 +15,13 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy backend source code, migrations, and data fixtures
 COPY alembic.ini /app/
-COPY alembic /app/alembic
+COPY backend/alembic /app/backend/alembic
 COPY backend/app /app/app
+COPY backend/app /app/backend/app
 COPY data /app/data
 
-ENV PYTHONPATH=/app
+ENV PYTHONPATH=/app:/app/backend
 EXPOSE 8000
 
-# Run migrations, seed database, and launch uvicorn server
-CMD ["sh", "-c", "alembic upgrade head && python app/seed.py && uvicorn app.main:app --host 0.0.0.0 --port 8000"]
+# Wait for database, run migrations, seed database, and launch uvicorn server
+CMD ["sh", "-c", "python app/wait_for_db.py && alembic upgrade head && python app/seed.py && uvicorn app.main:app --host 0.0.0.0 --port 8000"]
